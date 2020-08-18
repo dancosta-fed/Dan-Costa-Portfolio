@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('img/background/home.jpg') no-repeat top center;
+  background: url('img/background/home.jpg') no-repeat center -106px;
   background-size: cover;
   overflow: hidden;
   padding-top: 45px;
@@ -119,6 +119,15 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #F25041;
+}
+
+.text.color {
+  color: #F25041;
+  font-weight: bold;
+}
+
+.contactlink {
+  color: #F25041;
 }
 
 footer {
