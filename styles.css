@@ -15,10 +15,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #F2F0EB;
+  color: #F2F0EB; 
 }
 a:hover {
-  color: #F2F0EB;
+  color: #5196A6;
+  transform: scale(.9)
 }
 
 /* Section Styles */
@@ -52,7 +53,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: #F25041;
+  color: #91D7F2;
 }
 
 header {
@@ -76,8 +77,9 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.5) rotate(360deg);
 }
+
 .tag {
-  background-color: ;
+  background-color: none;
   color:#F2F0EB;
   padding: 10px;
   border-radius: 5px;
@@ -94,10 +96,11 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: #F2F0EB;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  color: #222;
 }
 .card:hover {
   border-color: #5196A6;
@@ -127,7 +130,7 @@ ul.skills {
 }
 
 .contactlink {
-  color: #F25041;
+  color: #222;
 }
 
 footer {
