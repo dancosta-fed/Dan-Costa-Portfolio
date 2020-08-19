@@ -22,6 +22,11 @@ a:hover {
   transform: scale(.9)
 }
 
+.experience a:hover {
+  color: #F2955E;
+}
+
+
 /* Section Styles */
 
 .main-nav {
@@ -32,6 +37,11 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+
+.color2 {
+  background:#F25041 !important;
+}
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -54,6 +64,10 @@ a:hover {
 }
 .nav a:hover {
   color: #91D7F2;
+}
+
+.color2 a:hover {
+  color: #F2955E;
 }
 
 header {
@@ -104,6 +118,10 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #5196A6;
+}
+
+.experience:hover {
+  border-color: #F25041;
 }
 
 ul.skills {
@@ -197,6 +215,7 @@ footer ul li {
 }
 /* This is for the social media button. I found this style on css_coder's instagram page. Here's the link to it: https://www.instagram.com/p/CD4BpomgedR/ */
 
+/* Blue background */
 .newsocial {
   margin: 0;
   padding: 0; 
@@ -217,6 +236,7 @@ i {
   transform: scale(.1);
   transition: all .3s ease;
 }
+
 .btn_wrap {
   position: relative;
   right: -40%;
@@ -276,5 +296,65 @@ span {
    opacity: 1;
    transform: scale(1);
  }
+/* / Blue background */
+
+/* Red background */
+
+
+.social2 { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F25041;
+}
+
+.btn_wrap2 {
+  position: relative;
+  right: -40%;
+  display: flex;
+  justify-content: center; align-items: center;
+  overflow: hidden; cursor: pointer;
+  width: 240px; height: 72px;
+  background-color: #F2F0EB;
+  border-radius: 80px;
+  will-change: transform;
+  transition: all .2s ease-in-out;
+}
+.btn_wrap2:hover { transform: scale(1.1)}
+
+.isocial2 { 
+  opacity: 0;
+  font-size: 2.5vw;
+  color: #F25041;
+  will-change: transform;
+  transform: scale(.1);
+  transition: all .3s ease;
+
+}
+
+.socialcolor2 {
+    position: absolute; z-index: 99;
+    width: 240px; height: 72px;
+    border-radius: 80px; font-size: 20px;
+    text-align: center;
+    line-height: 70px;
+    letter-spacing: 2px;
+    color: #F2F0EB; background-color: #F25041;
+    padding: 0 18px;
+    transition: all 1.2s ease;
+  }
+
+  .btn_wrap2:hover span {
+    transition-delay: .25s;
+    transform: translateX(-280px)
+   }
+   
+   .btn_wrap2:hover i {
+     opacity: 1;
+     transform: scale(1);
+   }
+
+/* / Red background */
 
 /* /End of the social media button */
