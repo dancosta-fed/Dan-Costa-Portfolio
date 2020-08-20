@@ -76,16 +76,58 @@ header {
   background-size: cover;
   overflow: hidden;
   padding-top: 45px;
+  line-height: 1.5;
+  min-height: 350px;
 }
+
+.experiencepage {
+  text-align: center;
+  background: url('img/background/Experience.jpg') no-repeat center -100px;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  line-height: 1.5;
+  width: 100%;
+  height: auto;
+
+}
+
+.aboutpage {
+  text-align: center;
+  background: url('img/background/about.jpg') no-repeat center -100px;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  line-height: 1.5;
+  width: 100%;
+  height: auto;
+
+
+}
+
+.contactpage {
+  text-align: center;
+  background: url('img/background/contact.jpg') no-repeat center -75px;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  line-height: 1.5;
+  width: 100%;
+  height: auto;
+
+}
+
 header {
   line-height: 1.5;
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-style: none;
+  border-radius: 35%;
+  border: 2px solid #F2F0EB;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -144,6 +186,11 @@ ul.skills {
 
 .text.color {
   color: #F25041;
+  font-weight: bold;
+}
+
+.textcolor2 {
+  color: #5196A6;
   font-weight: bold;
 }
 
